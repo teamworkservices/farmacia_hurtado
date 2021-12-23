@@ -13,11 +13,13 @@ import { SharedModule } from '../shared/shared.module';
     HeaderComponent,
     FooterComponent,
     LayoutfullComponent
+    
   ],
   imports: [
     CommonModule,
     LayoutRoutingModule,
     SharedModule
+  
   ]
 })
 export class LayoutModule { }
