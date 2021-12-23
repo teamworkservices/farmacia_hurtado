@@ -8,6 +8,8 @@ import { AfterViewInit, Component, OnInit } from '@angular/core';
 
 export class HeaderComponent implements OnInit, AfterViewInit {
 
+  username:string = 'El usuario';
+
   constructor() { }
 
   ngAfterViewInit(): void {
@@ -16,6 +18,10 @@ export class HeaderComponent implements OnInit, AfterViewInit {
 
   ngOnInit(): void {
     
+  }
+
+  logOut(){
+    alert("cerrando sesion");
   }
 
 }
